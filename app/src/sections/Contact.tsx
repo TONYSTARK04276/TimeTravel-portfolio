@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { cn } from '@/lib/utils';
-import { Github, Linkedin, Twitter, Mail, ArrowUpRight } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowUpRight } from 'lucide-react';
 
 const contactContent = {
   headline: 'Continue The Journey',
@@ -10,9 +10,8 @@ const contactContent = {
   phone: '8930818725',
   address: 'Palwal, Haryana',
   socials: [
-    { name: 'GitHub', icon: Github, url: 'https://github.com/mohithudda' },
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/mohit-hudda' },
-    { name: 'Twitter', icon: Twitter, url: 'https://twitter.com/mohithudda' },
+    { name: 'GitHub', icon: Github, url: 'https://github.com/TONYSTARK04276' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/mohit-hudda-1a94153b9' },
   ],
 };
 
